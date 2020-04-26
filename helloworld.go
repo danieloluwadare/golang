@@ -6,6 +6,9 @@ func main() {
 	// testconstantExamples()
 	// testForLoopsExamples()
 	// testWhileLoopsExamples()
-	testIfStatements()
-	testSwitchCaseStatemets()
+	testForloopOnArray()
+	testForEachLoopUsingRangeOnArray()
+	// testIfStatements()
+	// testSwitchCaseStatemets()
+	// testArraysExample()
 }

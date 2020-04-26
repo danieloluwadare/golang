@@ -32,3 +32,21 @@ func testWhileLoopsExamples() {
 	fmt.Println(sum) // 10 (1+2+3+4)
 
 }
+
+func testForloopOnArray() {
+	var arr [3]string = testReturnArrayExample()
+	for i := 0; i < len(arr); i++ {
+		fmt.Printf("The index = %d and value %s \n", i, arr[i])
+
+	}
+
+}
+
+func testForEachLoopUsingRangeOnArray() {
+	var arr [3]string = testReturnArrayExample()
+
+	for i, s := range arr {
+		fmt.Println(i, s)
+	}
+
+}
