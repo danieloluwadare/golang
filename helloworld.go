@@ -5,5 +5,7 @@ func main() {
 	// testDataTypeExample()
 	// testconstantExamples()
 	// testForLoopsExamples()
-	testWhileLoopsExamples()
+	// testWhileLoopsExamples()
+	testIfStatements()
+	testSwitchCaseStatemets()
 }
