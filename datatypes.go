@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func testDataTypeExample() {
 	//declaring a integer variable x
 	var variable1 int
 	variable1 = 3                        //assigning variable1 the value 3
@@ -22,4 +22,9 @@ func main() {
 	//Multiple variables are assigned in single line- i with an integer and j with a string
 	var i, j = 100, "hello"
 	fmt.Println("i and j:", i, j)
+
+	//Note that You used := instead of =. You cannot use := just to assign a value to a
+	//variable which is already declared. := is used to declare and assign value.
+	a := 20
+	fmt.Println(a)
 }
