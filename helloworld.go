@@ -11,5 +11,6 @@ func main() {
 	// testIfStatements()
 	// testSwitchCaseStatemets()
 	// testArraysExample()
-	testSliceExample()
+	// testSliceExample()
+	testMapExample()
 }
