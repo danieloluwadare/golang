@@ -17,5 +17,6 @@ func main() {
 	// testString()
 	// testFuctionWithFunctionArgument(1, 3)
 	// testVariadicFunction()
-	testStructs()
+	// testStructs()
+	testInterface()
 }
