@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func testForLoopsExamples() {
 	var sum int = 0
@@ -39,6 +42,18 @@ func testForloopOnArray() {
 		fmt.Printf("The index = %d and value %s \n", i, arr[i])
 
 	}
+
+}
+
+func testForloopOnArrayMutation() {
+	var arr [3]string = testReturnArrayExample()
+	for i := 0; i < len(arr); i++ {
+		arr[i] = "test" + strconv.Itoa(i)
+		fmt.Printf("The index = %d and value %s \n", i, arr[i])
+
+	}
+
+	fmt.Println(arr)
 
 }
 
