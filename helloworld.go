@@ -16,5 +16,6 @@ func main() {
 	// testMapExample()
 	// testString()
 	// testFuctionWithFunctionArgument(1, 3)
-	testVariadicFunction()
+	// testVariadicFunction()
+	testStructs()
 }
