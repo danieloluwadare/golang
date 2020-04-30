@@ -28,9 +28,29 @@ func testSliceExampleReturn() []string {
 	studentSlice := make([]string, 0) // same as []int{0, 0}
 	studentSlice = append(studentSlice, "Hello")
 	studentSlice = append(studentSlice, "World")
+	studentSlice = append(studentSlice, "W1")
+	studentSlice = append(studentSlice, "W2")
+	studentSlice = append(studentSlice, "W3")
 
 	for i, s := range studentSlice {
 		fmt.Println(i, s)
 	}
 	return studentSlice
+}
+
+func testUpdateSliceExample() {
+	studentSlice := make([]string, 0) // same as []int{0, 0}
+	studentSlice = append(studentSlice, "Hello")
+	studentSlice = append(studentSlice, "World")
+	studentSlice = append(studentSlice, "W1")
+	studentSlice = append(studentSlice, "W2")
+	studentSlice = append(studentSlice, "W3")
+
+	for i, s := range studentSlice {
+		fmt.Println(i, s)
+	}
+	studentSlice[2] = "W4"
+
+	fmt.Print(" Slice ===>", studentSlice)
+
 }

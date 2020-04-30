@@ -10,7 +10,6 @@ func testVariadicFunction() {
 
 }
 
-// When you return a slice you dont need to specify the length of the slice
 func variadicFunction(args ...int) int {
 	sum := 0
 	for i := 0; i < len(args); i++ {
