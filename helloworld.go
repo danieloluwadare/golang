@@ -1,5 +1,6 @@
 package main
 
+// This contains the main method
 func main() {
 	// fmt.Println("Hello World! This is Daniel first Go program\n More Codes to come")
 	// testDataTypeExample()
@@ -13,7 +14,7 @@ func main() {
 	// testSwitchCaseStatemets()
 	// testArraysExample()
 	// testSliceExample()
-	testUpdateSliceExample()
+	// testUpdateSliceExample()
 	// testMapExample()
 	// testString()
 	// testFuctionWithFunctionArgument(1, 3)
@@ -22,4 +23,7 @@ func main() {
 	// testInterface()
 	// testTypePlayGround()
 	// testDerivedTypesOfmapOfEvents()
+
+	// testPointers()
+	testMethodsOfStructs()
 }
