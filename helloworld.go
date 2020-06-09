@@ -25,5 +25,6 @@ func main() {
 	// testDerivedTypesOfmapOfEvents()
 
 	// testPointers()
-	testMethodsOfStructs()
+	//testMethodsOfStructs()
+	TestError()
 }
