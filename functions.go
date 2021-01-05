@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+func Sdd(a int, b int) int {
+	c := a + b
+	return c
+}
+
 func add(a int, b int) int {
 	c := a + b
 	return c
