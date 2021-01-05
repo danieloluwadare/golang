@@ -33,12 +33,12 @@ func main() {
 
 	// testPointers()
 	//testMethodsOfStructs()
-
 	//fmt.Println("Top articles by author")
 	//fmt.Println(topArticles("olalonde", 3))
 
 	topStories("spiderman")
 
+	TestError()
 }
 
 
