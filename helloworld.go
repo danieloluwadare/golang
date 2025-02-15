@@ -36,16 +36,17 @@ func main() {
 	//fmt.Println("Top articles by author")
 	//fmt.Println(topArticles("olalonde", 3))
 
-	topStories("spiderman")
+	//topStories("spiderman")
 
-	TestError()
+	//TestError()
+
+	InvokeGoRoutine()
+	TestChannels()
 }
 
+func performHttpRequest2(url string) (map[string]interface{}, error) {
 
-
-func performHttpRequest2(url string) (map[string]interface{}, error){
-
-	baseUrl:= url
+	baseUrl := url
 
 	req, err := http.NewRequest("GET", baseUrl, nil)
 	if err != nil {
